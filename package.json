@@ -1,0 +1,37 @@
+{
+  "name": "dt-cli",
+  "version": "0.1.0",
+  "description": "Developer/Devops Tool - a command line tool that provides a framework for creating and using developer and devop tools.",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dt": "./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejustesen/dt.git"
+  },
+  "keywords": [
+    "developer",
+    "devops",
+    "cli",
+    "command line tool"
+  ],
+  "author": "Joe Justesen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/joejustesen/dt/issues"
+  },
+  "homepage": "https://github.com/joejustesen/dt#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
